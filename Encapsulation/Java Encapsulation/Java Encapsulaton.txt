@@ -1,0 +1,9 @@
+1. hide the data from the user
+1.1 declear the class variable/attributes as private 
+1.2 provice public get and set method to access or update the value of orivate varibale/attribute
+
+2. why we use encapsulation
+2.1 better control of class attribute and methods
+2.2 Class attributes can be made read-only (if you only use the get method), or write-only (if you only use the set method)
+2.3 Flexible: the programmer can change one part of the code without affecting other parts
+2.4 Increased security of data

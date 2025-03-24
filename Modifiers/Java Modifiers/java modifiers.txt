@@ -1,0 +1,9 @@
+1. Access Modifiers - controls the access level 
+
+For Class -> (public , private)
+For attribute , methods , constructor -> (public , private, defult , protected)
+
+2. Non-Access Modifiers - do not control access level, but provides other functionality
+
+For Class -> (Final, Abstract)
+For attributes and methods -> (final, static,abstract, transient, synchronized , volatile)

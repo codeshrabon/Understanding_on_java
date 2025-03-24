@@ -1,0 +1,31 @@
+1. LocalDate
+2. LocalTime
+3. LocalDateTime
+4. DateTimeFormatter
+
+import java.time.LocalDate; // import the LocalDate class
+
+public class Main {
+  public static void main(String[] args) {
+    LocalDate/LocalTime/LocalDateTime/ myObj = LocalDate.now(); // Create a date object
+    System.out.println(myObj); // Display the current date
+  }
+}
+
+Formatting Date and Time:
+1. You can use the DateTimeFormatter class with the 
+ofPattern()"yyyy-MM-dd / dd/MM/yyyy / dd-MMM-yyyy / E, MMM dd yyyy" method
+
+import java.time.LocalDateTime; // Import the LocalDateTime class
+import java.time.format.DateTimeFormatter; // Import the DateTimeFormatter class
+
+public class Main {
+  public static void main(String[] args) {
+    LocalDateTime myDateObj = LocalDateTime.now();
+    System.out.println("Before formatting: " + myDateObj);
+    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+
+    String formattedDate = myDateObj.format(myFormatObj);
+    System.out.println("After formatting: " + formattedDate);
+  }
+}

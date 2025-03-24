@@ -1,0 +1,4 @@
+inheritance is -> subclass and superclass
+-> subclass (Child) -- the class inherits from other class 
+-> superclass (Parent) -- the class being inherited from 
+use of inheritance is to reuse my code --> like attributes , methods 

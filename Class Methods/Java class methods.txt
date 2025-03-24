@@ -1,0 +1,4 @@
+
+1. in java programming you will see either strict or public attribute and method 
+2. Static method you can access it without creating an Object
+3. but public method you need object to access it

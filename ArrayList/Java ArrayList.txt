@@ -1,0 +1,69 @@
+ArrayList class is a resizable array
+1. Add Items
+The ArrayList class has many useful methods. For example, 
+to add elements to the list, use the add() method...
+
+import java.util.ArrayList;
+
+public class Main {
+  public static void main(String[] args) {
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    System.out.println(cars);
+  }
+}
+
+2. add an item at a specified position by referring to the index number
+	cars.add(0, "Mazda"); // Insert element at the beginning of the list (0)
+	
+3. Access an Item
+To access an element in the ArrayList, use the get() 
+method and refer to the index number
+
+cars.get(0);
+
+4. Remove an Item
+To remove an element, use the remove() method and 
+refer to the index number
+
+cars.remove(0);
+
+5. ArrayList Size
+To find out how many elements an ArrayList have, use the size method
+
+cars.size();
+
+6. Loop Through an ArrayList
+Loop through the elements of an ArrayList with a for loop, and use the size() 
+method to specify how many times the loop should run
+
+public class Main {
+  public static void main(String[] args) {
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    for (int i = 0; i < cars.size(); i++) {
+      System.out.println(cars.get(i));
+    }
+  }
+}
+
+public class Main {
+  public static void main(String[] args) {
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    for (String i : cars) {
+      System.out.println(i);
+    }
+  }
+}
+
+
