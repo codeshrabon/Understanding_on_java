@@ -1,0 +1,10 @@
+OOP is a programming lang... where i can organze my code using objects and
+classes.. It help makes my code resuable, mouler and easy to maintain..
+
+
+1. Encapsulation -> hiding internal data using private variables and access them through public method
+2. abstraction -> hiding code just show only thing that important
+3. inheritance -> use code from one class to another
+4. polymorphism -> same method workd different in different classes 
+
+
