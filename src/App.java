@@ -16,4 +16,3 @@ public class App {
         System.out.println("From encapsulation --> my Name is " + encap.getName());
         }
 }
- 
